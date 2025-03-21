@@ -1,12 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 _*_
 
-print( "\n\n       Welcome to the python temperature conversion app!")
+print( "\n\n       Welcome to the python temperature conversion app!") 
+print( "\n\m This application coverts both celcius and farhenheit values that are less than 1000.")
 count = 0
 while True:
     count += 1
 
-    scale = (input("\nPlease indicate the temperature scale you are converting from by entering c for celcius  or f for fahrenheit. \n "))
+    scale = (input("\nPlease indicate the temperature scale you are converting from by entering c for celcius or f for fahrenheit. \n "))
     if scale not in ['f' , 'c']  :
         print('\nYou did not enter a letter c or letter f as requested.')
         if count == 3:
