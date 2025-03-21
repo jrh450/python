@@ -2,7 +2,7 @@
 # -*- coding: utf-8 _*_
 
 print( "\n\n       Welcome to the python temperature conversion app!") 
-print( "\n\m This application coverts both celcius and farhenheit values that are less than 1000.")
+print( "\n\n This application coverts both celcius and farhenheit values that are less than 1000.")
 count = 0
 while True:
     count += 1
